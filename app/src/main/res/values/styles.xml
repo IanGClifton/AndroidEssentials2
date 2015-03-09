@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryDark">@color/darker_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textColor">@color/another_color</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PurpleText" parent="TitleText">
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="TitleText.Purple">
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+</resources>
